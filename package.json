@@ -1,0 +1,27 @@
+{
+  "name": "prisma-docker-node",
+  "version": "1.0.0",
+  "description": "Testing the framework prisma 2 and docker with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whistlerip/prisma-docker-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whistlerip/prisma-docker-node/issues"
+  },
+  "homepage": "https://github.com/whistlerip/prisma-docker-node#readme",
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.0.0-beta.5"
+  }
+}
